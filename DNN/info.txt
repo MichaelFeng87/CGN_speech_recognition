@@ -1,0 +1,13 @@
+This folder contains scripts for running a DNN on your MFCCs or Filterbanks
+
+files:
+
+-dnn_data; scripts to load your dataset into train, val and test sets. You can load the whole dataset, or just create an indexing if the data does not fit into memory.
+
+-dnn; main file where you can specify your dnn structure, loss function etc. Run this file to train as well.
+
+Acknowledgements:
+
+dnn was started from a Lasagne example file.
+
+
